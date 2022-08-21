@@ -12,8 +12,8 @@ export default function SignInPage() {
   const [passwordValue, setPassWordValue] = React.useState('');
   const handleOnCLickNavigate = () => {
     if (
-      emailValue !== 'naumanshabbir19@gmail.com' &&
-      passwordValue !== '123456'
+      emailValue !== 'sharaz@gmail.com' &&
+      passwordValue !== '123'
     ) {
       return;
     }
